@@ -42,7 +42,7 @@
   display: inline-block;
 }
 .navbar .menu li a {
-  color: #ffff;
+  color: #fff;
   font-size: 18px;
   font-weight: 500px;
   margin-left: 25px;
@@ -55,4 +55,7 @@
   min-height: 500px;
   color: #fff;
   font-family: ubuntu, sans-serif;
+}
+.home-content {
+  color: black;
 }
