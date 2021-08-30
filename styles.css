@@ -1,61 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;700&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@300;400;700&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
+body {
+  font-family: "Poppins", sans-serif;
 }
 
-/* navbar styling */
-
-.max-width {
-  max-width: 1300px;
-  padding: 0 80px;
-  margin: auto;
+.rounded-circle {
+  width: 250px;
+  height: 250px;
+  object-fit: fill;
 }
 
-.navbar {
-  position: fixed;
-  padding: 15px 0;
-  width: 100%;
-  background-color: #2596be;
-  font-family: ubuntu, sans-serif;
+i {
+  font-size: 30px;
 }
 
-.navbar .max-width {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.navbar .logo a {
-  color: #ffff;
-  font-size: 35px;
-  font-weight: 600;
-}
-
-.navbar .menu li {
-  list-style: none;
-  display: inline-block;
-}
-.navbar .menu li a {
-  color: #fff;
-  font-size: 18px;
-  font-weight: 500px;
-  margin-left: 25px;
-}
-
-.home {
-  display: flex;
-  background: url(img/annie-spratt-pKpipZVVEC0-unsplash.jpeg) no-repeat center;
-  height: 100vh;
-  min-height: 500px;
-  color: #fff;
-  font-family: ubuntu, sans-serif;
-}
-.home-content {
-  color: black;
+a.nav-link {
+  cursor: pointer;
 }
